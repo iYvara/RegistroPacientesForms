@@ -63,6 +63,7 @@
             this.btnRegistrar.TabIndex = 2;
             this.btnRegistrar.Text = "1. Registrar";
             this.btnRegistrar.UseVisualStyleBackColor = true;
+            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
             // btnLeerPacientes
             // 
@@ -81,6 +82,7 @@
             this.btnBuscarPacientes.TabIndex = 4;
             this.btnBuscarPacientes.Text = "3. Buscar";
             this.btnBuscarPacientes.UseVisualStyleBackColor = true;
+            this.btnBuscarPacientes.Click += new System.EventHandler(this.btnBuscarPacientes_Click);
             // 
             // btnBorrarPacientes
             // 
@@ -94,17 +96,20 @@
             // 
             // btnSalir
             // 
+            this.btnSalir.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.btnSalir.Location = new System.Drawing.Point(363, 531);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(103, 51);
             this.btnSalir.TabIndex = 6;
             this.btnSalir.Text = "Salir";
-            this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.UseVisualStyleBackColor = false;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // SistemaDePacientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(478, 594);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnBorrarPacientes);

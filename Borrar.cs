@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace RegistroPacientes
 {
-    public partial class SistemaDePacientes : Form
+    public partial class Borrar : Form
     {
-        public SistemaDePacientes()
+        public Borrar()
         {
             InitializeComponent();
-        }
-
-        private void btnBorrarPacientes_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

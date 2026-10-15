@@ -33,6 +33,12 @@ namespace RegistroPacientes
             if (clave == "Admin123")
             {
                 MessageBox.Show("Contraseña correcta, bienvenido/a.");
+                using (SistemaDePacientes sistema = new SistemaDePacientes())
+                {
+                    this.Hide();
+                    sistema.ShowDialog();
+                    this.Show();
+                }
             }
             else
             {
