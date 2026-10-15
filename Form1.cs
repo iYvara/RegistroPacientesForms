@@ -16,5 +16,20 @@ namespace RegistroPacientes
         {
             InitializeComponent();
         }
+
+        private void txtContraseña_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnIngresar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
