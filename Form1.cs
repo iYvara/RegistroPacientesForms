@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace RegistroPacientes
 {
-    public partial class Form1 : Form
+    public partial class RegistroDePacientes : Form
     {
-        public Form1()
+        public RegistroDePacientes()
         {
             InitializeComponent();
         }
